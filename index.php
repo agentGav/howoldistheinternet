@@ -12,17 +12,16 @@
         <head>
                 <meta charset="utf-8">
                 <title>How old is the web?</title>
-                <link rel="icon" type="image/x-icon" href="/favicon.ico">
-                <link type="text/plain" rel="author" href="/humans.txt" />
                 <style type="text/css" media="all">
       body {
-        font-family: helvetica neue, sans-serif;
+        font-family: helvetica neue, sans-serif; font-color: #FFF; background-color: #000;
       }
                         p {
+                                color: #FFF;
                                 width: 95%;
                                 height: 90%;
                                 margin: 5% auto;
-                                text-align: center; 
+                                text-align: center;
                                 vertical-align: middle;
                                 font-size: 700%;
                                 display: block;
@@ -34,4 +33,5 @@
                 <p>
                         The web is <?=$web_days; ?> days old today
                 </p>
+</body>
 </html>
